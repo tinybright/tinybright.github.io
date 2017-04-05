@@ -8,7 +8,7 @@
     
     
     
-    <title>About me | Jekyll Jacman</title>
+    <title>Jacman | Jekyll Jacman</title>
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
@@ -23,12 +23,12 @@
     
     <meta property="og:type" content="website">
     
-    <meta property="og:title" content="About me">
-    <meta property="og:url" content="/about/">
+    <meta property="og:title" content="Jacman">
+    <meta property="og:url" content="/README_en">
     <meta property="og:site_name" content="Jekyll Jacman">
     <meta property="og:description" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="About me">
+    <meta name="twitter:title" content="Jacman">
     <meta name="twitter:description" content="page.description">
     <meta name="twitter:creator" content="@">
     <link rel="publisher" href="">
@@ -98,7 +98,7 @@
 	<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/about/" title="About me" itemprop="url">About me</a>
+      <a href="/README_en" title="Jacman" itemprop="url">Jacman</a>
   </h1>
   <p class="article-author">By
        
@@ -111,7 +111,85 @@
 </header>
 	<div class="article-content">
 		
-		Building....  
+		<h1 id="jacman">Jacman</h1>
+
+<p><strong><a href="/README.md">中文</a> | English</strong></p>
+
+<p>Jacman is a fresh looking and responsive theme for <a href="http://jekyllrb.com">Jekyll</a> with more features and some build-in Chinese service based on <a href="https://github.com/wuchong/jacman">Hexo Jacman</a>.  </p>
+
+<ul>
+<li><a href="http://simpleyyt.github.io/jekyll-jacman/">Demo</a></li>
+<li><a href="http://simpleyyt.github.io">Yitao&#39;s Blog</a></li>
+<li><a href="http://simpleyyt.github.io/jekyll-jacman/jekyll/2015/09/20/how-to-use-jacman">如何使用 Jacman 主题</a></li>
+</ul>
+
+<h2 id="local-setup">Local Setup</h2>
+
+<p>Check whether you have <code>Ruby 2.1.0</code> or higher installed:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">ruby --version
+</code></pre></div>
+<p>Install <code>Bundler</code>:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">gem install bundler
+</code></pre></div>
+<p>Clone Jacman theme:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">git clone https://github.com/Simpleyyt/jekyll-jacman.git
+<span class="nb">cd </span>jekyll-jacman
+</code></pre></div>
+<p>You can change the <code>language</code> setting to <code>en</code> in <code>_config.yml</code>.</p>
+
+<p>You can also disable share buttons by setting <code>share_button</code> to <code>false</code>.</p>
+
+<p>Install Jekyll and other dependencies from the GitHub Pages gem:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">bundle install
+</code></pre></div>
+<p>Run your Jekyll site locally:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh">bundle <span class="nb">exec </span>jekyll server
+</code></pre></div>
+<p>More Details：<a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">Setting up your GitHub Pages site locally with Jekyll</a></p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+<li><strong>menu</strong><br>
+Main navigation menu.</li>
+<li><strong>widget</strong><br>
+Widgets displaying in sidebar.The github card, category,tag,rss,archive,tagcloud,links,weibo are supported.</li>
+<li><strong>Image</strong><br>
+Images about favicon, site logo, author image, banner image. Support different image styles like <code>img-logo</code>,<code>img-topic</code>,<code>img-center</code> etc.</li>
+<li><strong>index</strong><br>
+Two different home page display modes.You can visit <a href="http://jacman.wuchong.me">Demo</a> to check the difference.</li>
+<li><strong>author</strong><br>
+Author imformation, used to show your social network links on the bottom right. Including github, stackoverflow, twitter, facebook, linkedin, google+, weibo, douban, zhihu, email.</li>
+<li><strong>toc</strong><br>
+Show Table Of Contents in article &amp; aside.</li>
+<li><strong>comments</strong><br>
+<a href="http://duoshuo.com/">duoshuo</a> &amp; <a href="https://disqus.com/">disqus</a> are supported.</li>
+<li><strong>jiathis</strong><br>
+Build-in share tool or <a href="http://www.jiathis.com/">JiaThis</a> share buttons at the bottom of articles.</li>
+<li><strong>Analytiscs</strong><br>
+<a href="http://www.google.com/analytics/">Google analytics</a> &amp; <a href="http://tongji.baidu.com/">Baidu tongji</a> &amp; <a href="http://www.cnzz.com/">CNZZ tongji</a> are all supported.</li>
+<li><strong>Search</strong><br>
+<a href="https://www.google.com/cse/">Googlle Custom Search</a> &amp; <a href="http://zn.baidu.com/">Baidu Site Search</a> &amp; <a href="http://tinysou.com/">Tiny Search</a> are supported.</li>
+<li><strong>totop</strong><br>
+Scroll to top</li>
+<li><strong>rss</strong><br>
+RSS subscription link (change if using Feedburner).</li>
+<li><strong>fancybox</strong><br>
+Enable <a href="http://fancyapps.com/fancybox/">Fancybox</a></li>
+<li><strong>others</strong>
+You can configure sidebar not show in post pages.</li>
+</ul>
+
+<h2 id="about-kramdown-engine-and-rouge-highlighter">About kramdown  engine and rouge highlighter</h2>
+
+<p>Redcarpet engine and pygments highlighter are currently unsupported on GitHub Pages. However, everythings seems normal except for the <em>Page build warning</em> mail. So I just ignore it.</p>
+
+<p>I also create a <code>kramdown</code> branch, which changes the markdown engine to kramdown and highlighter to rough.</p>
+
+<h2 id="license">License</h2>
+
+<p><a href="/LICENSE">MIT</a></p>
+  
 	</div>
 	<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -123,7 +201,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://localhost:4000/about/" data-title="About me | Jekyll Jacman" data-tsina="" class="share clearfix">
+	  <div data-url="http://localhost:4000/README_en" data-title="Jacman | Jekyll Jacman" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>

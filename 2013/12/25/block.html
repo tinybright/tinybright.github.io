@@ -1,6 +1,6 @@
 
 
-    <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     
     
     
-    <title>About me | Jekyll Jacman</title>
+    <title>Block | Jekyll Jacman</title>
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
@@ -21,14 +21,14 @@
     
     <meta name="description" content="page.description">
     
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
     
-    <meta property="og:title" content="About me">
-    <meta property="og:url" content="/about/">
+    <meta property="og:title" content="Block">
+    <meta property="og:url" content="/2013/12/25/block">
     <meta property="og:site_name" content="Jekyll Jacman">
     <meta property="og:description" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="About me">
+    <meta name="twitter:title" content="Block">
     <meta name="twitter:description" content="page.description">
     <meta name="twitter:creator" content="@">
     <link rel="publisher" href="">
@@ -49,9 +49,9 @@
     
 </head>
 
-      <body>
-        <header>
-          <div>
+  <body>
+    <header>
+        <div>
 		    
 			<div id="imglogo">
 				<a href="/"><img src="/assets/img/logo.png" alt="Jekyll Jacman" title="Jekyll Jacman"/></a>
@@ -85,37 +85,99 @@
 				</ul>
 			</nav>	
 </div>
-        </header>
-        <div id="container">
-          
+    </header>
+    <div id="container">
+      
 
 
 
-
-<div id="main" class="page" itemscope itemprop="blogPost">
+<div id="main" class="post" itemscope itemprop="blogPost">
   
 	<article itemprop="articleBody"> 
 	<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/about/" title="About me" itemprop="url">About me</a>
+      <a href="/2013/12/25/block" title="Block" itemprop="url">Block</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="yitao" target="_blank" itemprop="author">yitao</a>
 		
   <p class="article-time">
-    <time datetime="" itemprop="datePublished"> 发表于 </time>
+    <time datetime="2013-12-25 08:14:39 +0800" itemprop="datePublished"> 发表于 2013-12-25</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		Building....  
+		<div id="toc" class="toc-article toc-content" style="display: none;">
+		
+			<!--<%- toc(item.content) %>-->
+		
+		</div>
+		
+		<p>This post is used for testing tag plugins. See <a href="http://zespia.tw/hexo/docs/tag-plugins.html">docs</a> for more info.</p>
+
+<h2 id="block-quote">Block Quote</h2>
+
+<h3 id="normal-blockquote">Normal blockquote</h3>
+
+<blockquote>
+<p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.</p>
+</blockquote>
+
+<h2 id="code-block">Code Block</h2>
+
+<h3 id="normal-code-block">Normal code block</h3>
+<div class="highlight"><pre><code class="language-" data-lang="">alert('Hello World!');
+</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">print "Hello world"
+</code></pre></div>
+<h3 id="highlight-code-block">Highlight code block</h3>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span> <span class="s">"Hello world"</span>
+</code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="gist">Gist</h3>
+
+<script src="https://gist.github.com/996818.js"> </script>
+  
 	</div>
 	<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+<div class="article-categories">
+  <span></span>
+  <!--
+  <%- list_categories(item.categories, {
+      show_count: false,
+      class: 'article-category',
+      style: 'none',
+      separator: '►'
+  }) %>
+  -->
+  
+</div>
+
+
+  <div class="article-tags">
+  <!--
+  <% var tags = [];
+    item.tags.forEach(function(tag){
+      tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
+    }); %>-->
+  <span></span> <!--<%- tags.join('') %>-->
+  
+  
+  </div>
 
 </div>
 
@@ -123,7 +185,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://localhost:4000/about/" data-title="About me | Jekyll Jacman" data-tsina="" class="share clearfix">
+	  <div data-url="http://localhost:4000/2013/12/25/block" data-title="Block | Jekyll Jacman" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -132,11 +194,157 @@
 </footer>   
 	</article>
 	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2013/12/25/%E9%8F%83%E3%83%A6%E6%B9%B0%E7%91%BE%E7%82%AA%E5%84%90%E9%8A%88%E5%B9%BF%E5%84%93" title="日本語テスト">
+  <strong>上一篇：</strong><br/>
+  <span>
+  日本語テスト</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2013/12/25/excerpts"  title="Excerpts">
+ <strong>下一篇：</strong><br/> 
+ <span>Excerpts
+</span>
+</a>
+</div>
+
+</nav>
+
 	
 
 </div>  
-        </div>
-        <footer><div id="footer" >
+
+      
+      
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside toc-content">
+ 
+ <!--<%- toc(item.content) %>-->
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/#Foo" title="Foo">Foo<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Bar" title="Bar">Bar<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Baz" title="Baz">Baz<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#opinion" title="opinion">opinion<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Photo" title="Photo">Photo<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Jekyll" title="Jekyll">Jekyll<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/#Foo" title="Foo">Foo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Bar" title="Bar">Bar<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Baz" title="Baz">Baz<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#resources" title="resources">resources<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#jekyll" title="jekyll">jekyll<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#consectetur" title="consectetur">consectetur<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Jekyll" title="Jekyll">Jekyll<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Jacman" title="Jacman">Jacman<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div id="tagcloud" class="tagcloudlist clearfix">
+    </div>
+  </div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            <a href="https://coderq.com" target="_blank" title="码农圈">码农圈</a>
+          </li>
+        
+          <li>
+            <a href="http://wuchong.me" target="_blank" title="Jark's Blog">Jark's Blog</a>
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -186,7 +394,7 @@
 		</p>
 </div>
 </footer>
-        <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
 <script src="/assets/js/jquery.imagesloaded.min.js"></script>
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/jquery.qrcode-0.12.0.min.js"></script>
@@ -234,6 +442,8 @@ $(document).ready(function(){
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
       
+      $('#toc.toc-aside').css('display', 'none');
+      
     }
   });
 });
@@ -268,7 +478,47 @@ $(document).ready(function() {
 
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('#toc.toc-aside').toc({
+    title: "文章目录",
+    showEffect: "none"
+  });
+  $('#toc.toc-article').toc({
+    title: "文章目录",
+    showEffect: "show",
+    showSpeed: 0
+  });
+});
+</script>
 
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
 
 
 
@@ -420,6 +670,6 @@ $(document).ready(function(){
 <!-- Tiny_search Begin -->
 
 <!-- Tiny_search End -->
-      </body>
-     </html>
+  </body>
+</html>
 

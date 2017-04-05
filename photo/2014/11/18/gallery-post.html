@@ -1,6 +1,6 @@
 
 
-    <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     
     
     
-    <title>About me | Jekyll Jacman</title>
+    <title>Gallery Post | Jekyll Jacman</title>
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
@@ -23,12 +23,12 @@
     
     <meta property="og:type" content="website">
     
-    <meta property="og:title" content="About me">
-    <meta property="og:url" content="/about/">
+    <meta property="og:title" content="Gallery Post">
+    <meta property="og:url" content="/photo/2014/11/18/gallery-post">
     <meta property="og:site_name" content="Jekyll Jacman">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Gallery Post Test. 测试图片类文章的显示。">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="About me">
+    <meta name="twitter:title" content="Gallery Post">
     <meta name="twitter:description" content="page.description">
     <meta name="twitter:creator" content="@">
     <link rel="publisher" href="">
@@ -49,9 +49,9 @@
     
 </head>
 
-      <body>
-        <header>
-          <div>
+  <body>
+    <header>
+        <div>
 		    
 			<div id="imglogo">
 				<a href="/"><img src="/assets/img/logo.png" alt="Jekyll Jacman" title="Jekyll Jacman"/></a>
@@ -85,37 +85,97 @@
 				</ul>
 			</nav>	
 </div>
-        </header>
-        <div id="container">
-          
+    </header>
+    <div id="container">
+      
 
 
 
-
-<div id="main" class="page" itemscope itemprop="blogPost">
+<div id="main" class="photo" itemscope itemprop="blogPost">
+  
+	<div class="gallery">
+  <div class="photoset">
+    
+      
+        <img src="http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg">
+      
+        <img src="http://ww3.sinaimg.cn/mw690/81b78497jw1emfgwjrh2pj21hc0u01g3.jpg">
+      
+        <img src="http://ww2.sinaimg.cn/mw690/81b78497jw1emfgwil5xkj21hc0u0tpm.jpg">
+      
+        <img src="http://ww3.sinaimg.cn/mw690/81b78497jw1emfgvcdn25j21hc0u0qpa.jpg">
+      
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
   
 	<article itemprop="articleBody"> 
 	<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/about/" title="About me" itemprop="url">About me</a>
+      <a href="/photo/2014/11/18/gallery-post" title="Gallery Post" itemprop="url">Gallery Post</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="yitao" target="_blank" itemprop="author">yitao</a>
 		
   <p class="article-time">
-    <time datetime="" itemprop="datePublished"> 发表于 </time>
+    <time datetime="2014-11-18 23:45:20 +0800" itemprop="datePublished"> 发表于 2014-11-18</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		Building....  
+		<div id="toc" class="toc-article toc-content" style="display: none;">
+		
+			<!--<%- toc(item.content) %>-->
+		
+		</div>
+		
+		<p>Nunc dignissim volutpat enim, non sollicitudin purus dignissim id. Nam sit amet urna eu velit lacinia eleifend. Proin auctor rhoncus ligula nec aliquet. Donec sodales molestie lacinia. Curabitur dictum faucibus urna at convallis. Aliquam in lectus at urna rutrum porta. In lacus arcu, molestie ut vestibulum ut, rhoncus sed eros. Sed et elit vitae risus pretium consectetur vel in mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus turpis quis lectus rhoncus adipiscing. Proin pulvinar placerat suscipit. Maecenas imperdiet, quam vitae varius auctor, enim mauris vulputate sapien, nec laoreet neque diam non quam.</p>
+
+<!-- more -->
+
+<p><img src="http://ww1.sinaimg.cn/large/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg" alt="Wallbase - dgnfly (wallbase.cc/wallpaper/1384450)"></p>
+
+<p>Etiam luctus mauris at mi sollicitudin quis malesuada nibh porttitor. Vestibulum non dapibus magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin feugiat hendrerit viverra. Phasellus sit amet nunc mauris, eu ultricies tellus. Sed a mi tortor, eleifend varius erat. Proin consectetur molestie tortor eu gravida. Cras placerat orci id arcu tristique ut rutrum justo pulvinar. Maecenas lacinia fringilla diam non bibendum. Aenean vel viverra turpis. Integer ut leo nisi. Pellentesque vehicula quam ut sapien convallis consequat. Aliquam ut arcu purus, eget tempor purus. Integer eu tellus quis erat tristique gravida eu vel lorem. </p>
+  
 	</div>
 	<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+<div class="article-categories">
+  <span></span>
+  <!--
+  <%- list_categories(item.categories, {
+      show_count: false,
+      class: 'article-category',
+      style: 'none',
+      separator: '►'
+  }) %>
+  -->
+  
+  <a class="article-category-link" href="/categories/#Photo">Photo</a>
+  
+</div>
+
+
+  <div class="article-tags">
+  <!--
+  <% var tags = [];
+    item.tags.forEach(function(tag){
+      tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
+    }); %>-->
+  <span></span> <!--<%- tags.join('') %>-->
+  
+  
+  <a href="/tags/#consectetur">consectetur</a>
+  
+  </div>
 
 </div>
 
@@ -123,7 +183,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://localhost:4000/about/" data-title="About me | Jekyll Jacman" data-tsina="" class="share clearfix">
+	  <div data-url="http://localhost:4000/photo/2014/11/18/gallery-post" data-title="Gallery Post | Jekyll Jacman" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -132,11 +192,157 @@
 </footer>   
 	</article>
 	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/opinion/2014/02/16/Mathjax-with-jekyll" title="MathJax with Jekyll">
+  <strong>上一篇：</strong><br/>
+  <span>
+  MathJax with Jekyll</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/09/19/emoji-test"  title="Emoji Test">
+ <strong>下一篇：</strong><br/> 
+ <span>Emoji Test
+</span>
+</a>
+</div>
+
+</nav>
+
 	
 
 </div>  
-        </div>
-        <footer><div id="footer" >
+
+      
+      
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside toc-content">
+ 
+ <!--<%- toc(item.content) %>-->
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/#Foo" title="Foo">Foo<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Bar" title="Bar">Bar<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Baz" title="Baz">Baz<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#opinion" title="opinion">opinion<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Photo" title="Photo">Photo<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/#Jekyll" title="Jekyll">Jekyll<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/#Foo" title="Foo">Foo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Bar" title="Bar">Bar<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Baz" title="Baz">Baz<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#resources" title="resources">resources<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#jekyll" title="jekyll">jekyll<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#consectetur" title="consectetur">consectetur<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Jekyll" title="Jekyll">Jekyll<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/#Jacman" title="Jacman">Jacman<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div id="tagcloud" class="tagcloudlist clearfix">
+    </div>
+  </div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            <a href="https://coderq.com" target="_blank" title="码农圈">码农圈</a>
+          </li>
+        
+          <li>
+            <a href="http://wuchong.me" target="_blank" title="Jark's Blog">Jark's Blog</a>
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -186,7 +392,7 @@
 		</p>
 </div>
 </footer>
-        <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
 <script src="/assets/js/jquery.imagesloaded.min.js"></script>
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/jquery.qrcode-0.12.0.min.js"></script>
@@ -271,65 +477,6 @@ $(document).ready(function() {
 
 
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina'),
-      description = $this.attr('description');
-  var html = [
-  '<div class="hoverqrcode clearfix"></div>',
-  '<a class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
-  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-/*
-  $('.hoverqrcode').hide();
-
-  var myWidth = 0;
-  function updatehoverqrcode(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-    var qrsize = myWidth > 1024 ? 200:100;
-    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
-    var p = $('.article-share-qrcode').position();
-    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
-                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
-                          .qrcode(options);
-  };
-  $(window).resize(function(){
-    $('.hoverqrcode').hide();
-  });
-  $('.article-share-qrcode').click(function(){
-    updatehoverqrcode();
-    $('.hoverqrcode').toggle();
-  });
-  $('.article-share-qrcode').hover(function(){}, function(){
-      //$('.hoverqrcode').hide();
-  });
-  */
-});   
-</script>
 
 
 
@@ -420,6 +567,6 @@ $(document).ready(function(){
 <!-- Tiny_search Begin -->
 
 <!-- Tiny_search End -->
-      </body>
-     </html>
+  </body>
+</html>
 
