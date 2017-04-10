@@ -4,7 +4,7 @@
  <title>A</title>
  <link href="" rel="self"/>
  <link href=""/>
- <updated>2017-04-10T23:37:30+08:00</updated>
+ <updated>2017-04-10T23:59:04+08:00</updated>
  <id></id>
  <author>
    <name>tinylight</name>
@@ -13,11 +13,23 @@
 
  
  <entry>
+   <title>devsources</title>
+   <link href="/download/2017/04/10/dev-sources"/>
+   <updated>2017-04-10T23:49:32+08:00</updated>
+   <id>/download/2017/04/10/dev-sources</id>
+   <content type="html">&lt;p&gt;下载git很慢可以尝试镜像&lt;/p&gt;
+
+&lt;p&gt;links:&lt;br&gt;
+    [git镜像 git下载][&lt;a href=&quot;http://gitb.org/git-for-windows/&quot;&gt;http://gitb.org/git-for-windows/&lt;/a&gt;]&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>jekyll-tips</title>
    <link href="/jekyll/2017/04/02/jekyll-tips"/>
    <updated>2017-04-02T01:04:32+08:00</updated>
    <id>/jekyll/2017/04/02/jekyll-tips</id>
-   <content type="html">&lt;p&gt;some Jekyll-tips&lt;/p&gt;
+   <content type="html">&lt;p&gt;some jekyll-tips&lt;/p&gt;
 
 &lt;p&gt;links:&lt;br&gt;
     [rubyinstaller][&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;http://rubyinstaller.org/downloads/&lt;/a&gt;]&lt;br&gt;

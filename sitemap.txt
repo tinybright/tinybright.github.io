@@ -13,6 +13,7 @@
 /page2/
 /page3/
 
+/download/2017/04/10/dev-sources
 /jekyll/2017/04/02/jekyll-tips
 /jekyll/2017/04/01/welcome-to-jekyll
 /jekyll/2015/09/20/how-to-use-jacman

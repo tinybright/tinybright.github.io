@@ -5,14 +5,26 @@
         <description>A - tinylight</description>
         <link></link>
         <atom:link href="" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 10 Apr 2017 23:37:30 +0800</lastBuildDate>
-        <pubDate>Mon, 10 Apr 2017 23:37:30 +0800</pubDate>
+        <lastBuildDate>Mon, 10 Apr 2017 23:59:04 +0800</lastBuildDate>
+        <pubDate>Mon, 10 Apr 2017 23:59:04 +0800</pubDate>
         <ttl>60</ttl>
 
 
         <item>
+                <title>devsources</title>
+                <description>&lt;p&gt;下载git很慢可以尝试镜像&lt;/p&gt;
+
+&lt;p&gt;links:&lt;br&gt;
+    [git镜像 git下载][&lt;a href=&quot;http://gitb.org/git-for-windows/&quot;&gt;http://gitb.org/git-for-windows/&lt;/a&gt;]&lt;/p&gt;
+</description>
+                <link>/download/2017/04/10/dev-sources</link>
+                <guid>/download/2017/04/10/dev-sources</guid>
+                <pubDate>Mon, 10 Apr 2017 23:49:32 +0800</pubDate>
+        </item>
+
+        <item>
                 <title>jekyll-tips</title>
-                <description>&lt;p&gt;some Jekyll-tips&lt;/p&gt;
+                <description>&lt;p&gt;some jekyll-tips&lt;/p&gt;
 
 &lt;p&gt;links:&lt;br&gt;
     [rubyinstaller][&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;http://rubyinstaller.org/downloads/&lt;/a&gt;]&lt;br&gt;
