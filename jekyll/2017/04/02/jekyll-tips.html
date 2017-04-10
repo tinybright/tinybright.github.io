@@ -8,7 +8,7 @@
     
     
     
-    <title>Tags | A</title>
+    <title>jekyll-tips | A</title>
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
@@ -23,12 +23,12 @@
     
     <meta property="og:type" content="article">
     
-    <meta property="og:title" content="Tags">
-    <meta property="og:url" content="/2013/12/25/tags">
+    <meta property="og:title" content="jekyll-tips">
+    <meta property="og:url" content="/jekyll/2017/04/02/jekyll-tips">
     <meta property="og:site_name" content="A">
     <meta property="og:description" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tags">
+    <meta name="twitter:title" content="jekyll-tips">
     <meta name="twitter:description" content="page.description">
     <meta name="twitter:creator" content="@">
     <link rel="publisher" href="">
@@ -97,14 +97,14 @@
 	<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2013/12/25/tags" title="Tags" itemprop="url">Tags</a>
+      <a href="/jekyll/2017/04/02/jekyll-tips" title="jekyll-tips" itemprop="url">jekyll-tips</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="tinylight" target="_blank" itemprop="author">tinylight</a>
 		
   <p class="article-time">
-    <time datetime="2013-12-25 07:29:53 +0800" itemprop="datePublished"> 发表于 2013-12-25</time>
+    <time datetime="2017-04-02 01:04:32 +0800" itemprop="datePublished"> 发表于 2017-04-02</time>
     
   </p>
 </header>
@@ -116,7 +116,30 @@
 		
 		</div>
 		
-		<p>This post contains 3 tags. Make sure your theme can display all of the tags.</p>
+		<p>some Jekyll-tips</p>
+
+<p>links:<br>
+    [rubyinstaller][<a href="http://rubyinstaller.org/downloads/">http://rubyinstaller.org/downloads/</a>]<br>
+    [<a href="http://blog.csdn.net/maoxunxing/article/details/40479753%5D%5Bhttp://blog.csdn.net/maoxunxing/article/details/40479753">http://blog.csdn.net/maoxunxing/article/details/40479753][http://blog.csdn.net/maoxunxing/article/details/40479753</a>]<br>
+    [jekyll filter][<a href="http://jekyll.com.cn/docs/templates/">http://jekyll.com.cn/docs/templates/</a>]<br>
+    [Liquid][<a href="https://liquid.bootcss.com/basics/introduction/">https://liquid.bootcss.com/basics/introduction/</a>]<br>
+    [strftime][<a href="http://strftime.net/">http://strftime.net/</a>]</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">watch</span>
+<span class="c1">#=&gt; disable poll to prevent error</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">…</span><span class="n">or</span> <span class="n">create</span> <span class="n">a</span> <span class="kp">new</span> <span class="n">repository</span> <span class="n">on</span> <span class="n">the</span> <span class="n">command</span> <span class="n">line</span>
+
+<span class="n">echo</span> <span class="s2">"# tinybright"</span> <span class="o">&gt;&gt;</span> <span class="no">README</span><span class="p">.</span><span class="nf">md</span>
+<span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">add</span> <span class="no">README</span><span class="p">.</span><span class="nf">md</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"first commit"</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">tinybright</span><span class="o">/</span><span class="n">tinybright</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>
+<span class="err">…</span><span class="n">or</span> <span class="n">push</span> <span class="n">an</span> <span class="n">existing</span> <span class="n">repository</span> <span class="n">from</span> <span class="n">the</span> <span class="n">command</span> <span class="n">line</span>
+
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">tinybright</span><span class="o">/</span><span class="n">tinybright</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
   
 	</div>
 	<footer class="article-footer clearfix">
@@ -133,6 +156,8 @@
   }) %>
   -->
   
+  <a class="article-category-link" href="/categories/#jekyll">jekyll</a>
+  
 </div>
 
 
@@ -144,12 +169,6 @@
     }); %>-->
   <span></span> <!--<%- tags.join('') %>-->
   
-  
-  <a href="/tags/#Foo">Foo</a>
-  
-  <a href="/tags/#Bar">Bar</a>
-  
-  <a href="/tags/#Baz">Baz</a>
   
   </div>
 
@@ -194,27 +213,19 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2013/12/25/elements" title="Elements">
+ <a href="/jekyll/2017/04/01/welcome-to-jekyll" title="Welcome to Jekyll!">
   <strong>上一篇：</strong><br/>
   <span>
-  Elements</span>
+  Welcome to Jekyll!</span>
 </a>
 </div>
 
-
-<div class="next">
-<a href="/2013/12/25/link-post"  title="Link Post">
- <strong>下一篇：</strong><br/> 
- <span>Link Post
-</span>
-</a>
-</div>
 
 </nav>
 
 	<!--
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="/2013/12/25/tags" data-title="Tags" data-url="http://localhost:4000/2013/12/25/tags"></div>
+	<div class="ds-thread" data-thread-key="/jekyll/2017/04/02/jekyll-tips" data-title="jekyll-tips" data-url="http://localhost:4000/jekyll/2017/04/02/jekyll-tips"></div>
 </section>
 
 

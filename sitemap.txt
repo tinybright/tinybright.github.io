@@ -10,7 +10,11 @@
 /rss.xml
 /sitemap.txt
 /README_en
+/page2/
+/page3/
 
+/jekyll/2017/04/02/jekyll-tips
+/jekyll/2017/04/01/welcome-to-jekyll
 /jekyll/2015/09/20/how-to-use-jacman
 /2015/09/19/emoji-test
 /photo/2014/11/18/gallery-post
