@@ -1,0 +1,2 @@
+# tinybright.github.io
+blog
